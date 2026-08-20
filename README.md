@@ -2,7 +2,7 @@ Hello Friend 👋
 
 Welcome on my Github profile!
 
-**ML Engineer.** J'ai passé 10 ans en Testing, Inspection & Certification — laboratoires de biens industriels et de consommation, normes produit, direction d'équipe. J'y ai été le client de projets data : j'ai spécifié un LIMS, encadré son déploiement, et attendu des résultats de systèmes que d'autres construisaient. Je me suis reconverti pour être celui qui les construit.
+J'ai passé 10 ans en Testing, Inspection & Certification — laboratoires de biens industriels et de consommation, normes produit, direction d'équipe. J'y ai été le client de projets data : j'ai spécifié un LIMS, encadré son déploiement, et attendu des résultats de systèmes que d'autres construisaient. Je me suis reconverti pour être celui qui les construit.
 
 Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook et devient un service qu'on peut servir, mesurer et corriger. *Un modèle qui répond n'est pas un modèle qui a raison* : c'est la ligne qui sépare mes premiers projets des derniers.
 
