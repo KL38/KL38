@@ -44,7 +44,9 @@ En cours d'approfondissement : Deep Learning & Computer Vision, orchestration (A
 ### Parcours
 
 Diplôme Data Scientist & Machine Learning (eq. M.Sc.) — OpenClassrooms, 2026
+
 Master MAE / MBA — IAE Toulouse · Ingénieur Matériaux — Polytech Montpellier
+
 Français natif · Anglais courant (4 ans à Hong Kong) · Allemand B1
 
 ---
