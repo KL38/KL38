@@ -21,7 +21,7 @@ Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook
 |LLM & RAG | **NBA Analyst AI** | Évaluation d'un système RAG — fidélité ×2.5, précision du contexte ×4.3, mesurées sur 60 questions métier | [Repo](https://github.com/KL38/OC_P10_RAG_NBA-comments-and-stats) <br>[Rapport Eval](https://kl38.github.io/OC_P10_RAG_NBA-comments-and-stats/) |
 |Deep Learning & CV| **Brain Tumor Detection** | Deep Learning semi-supervisé — 1 406 IRM pseudo-labellisées par clustering, un CNN qui bat le supervisé pur avec 100 images annotées | [Repo](https://github.com/KL38/OC_P7_DL_SSL_Brain-Tumor-Detection) |
 |ML & ML Ops| **Credit Scoring API** | Mise en production complète — FastAPI, ONNX Runtime, CI/CD GitHub Actions, espace de monitoring dédié |[Repo](https://github.com/KL38/OC_P8_MLOPS_Credit-scoring-API)<br>[API](https://huggingface.co/spaces/KLEB38/OC_P8)<br>[Monitoring](https://huggingface.co/spaces/KLEB38/OC_P8_monitoring) |
-|ML & ML Ops| **Seattle Building consumption** | Prédiction conforme (MAPIE), CatBoost, SHAP — couverture 81 % pour une cible de 75 % | [Repo](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model)<br>[Demo](https://huggingface.co/spaces/KLEB38/OC_P13_seattle_energy_emission_predictions) <br>[Rapport](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model/blob/main/rapport/Rapport%20Seattle%20Energy%20Emission%20project.pdf)|
+|ML & ML Ops| **Seattle Building Consumption** | Prédiction conforme (MAPIE), CatBoost, SHAP — couverture 81 % pour une cible de 75 % | [Repo](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model)<br>[Demo](https://huggingface.co/spaces/KLEB38/OC_P13_seattle_energy_emission_predictions) <br>[Rapport](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model/blob/main/rapport/Rapport%20Seattle%20Energy%20Emission%20project.pdf)|
 |ML & ML Ops| **HR Attrition model** | Gradient Boosting, FastAPI, PostgreSQL, SHAP — seuil de décision à 0,37, recall priorisé sur l'attrition | [Repo](https://github.com/KL38/OC_P5_ML_MLOPS_HR-attrition-model)<br>[Demo](https://huggingface.co/spaces/KLEB38/OC_P5_Frontend_FUTURISYS) |
 |ML & ML Ops| **Agritech** | Chaîne complète modèle → API → interface, avec un protocole de validation qui refuse le score flatteur | [Repo](https://github.com/KL38/OC_P12_ML_MLOPS_Predict-Crops-rentability) |
 
@@ -31,7 +31,7 @@ Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook
 
 **Je mesure avant d'optimiser.** Sur le RAG NBA, j'ai d'abord construit, puis diagnostiqué : l'erreur venait du retrieval, pas du modèle. Depuis, le harnais d'évaluation vient en premier.
 
-**J'audite la donnée avant de modéliser.** Sur le projet Seattle Building consumption, les modèles fournis incluaient des ratios derivés des cibles. J'ai remplacé ses ratios par des booléens pour eviter toute fuite, et rendre le modèle utilisable par le métier.
+**J'audite la donnée avant de modéliser.** Sur le projet Seattle Building Consumption, les modèles fournis incluaient des ratios derivés des cibles. J'ai remplacé ces ratios par des booléens pour eviter toute fuite, et rendre le modèle utilisable par le métier.
 
 **Je préfère le chiffre vrai au chiffre flatteur.** Sur le projet Agritech, J'ai opté pour une cross validation groupée par pays, au lieu d'un découpage aléatoire qui aurait gonflé le score en laissant fuiter la signature du pays.
 
