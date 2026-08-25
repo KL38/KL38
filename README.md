@@ -31,9 +31,9 @@ Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook
 
 **Je mesure avant d'optimiser.** Sur le RAG NBA, j'ai d'abord construit, puis diagnostiqué : l'erreur venait du retrieval, pas du modèle. Depuis, le harnais d'évaluation vient en premier.
 
-**J'audite la donnée avant de modéliser.** Sur le projet Agritech, le jeu de données fourni était entièrement synthétique — j'en ai reconstitué la formule génératrice pour le démontrer, puis j'ai changé de jeu plutôt que de livrer un moteur de recommandation sans fondement.
+**J'audite la donnée avant de modéliser.** Sur le projet Seattle Building consumption, les modèles fournis incluaient des ratios derivés des cibles. J'ai remplacé ses ratios par des booléens pour eviter toute fuite, et rendre le modèle utilisable par le métier.
 
-**Je préfère le chiffre vrai au chiffre flatteur.** Validation groupée par pays et test sur 22 pays jamais vus, au lieu d'un découpage aléatoire qui aurait gonflé le score en laissant fuiter la signature du pays.
+**Je préfère le chiffre vrai au chiffre flatteur.** Sur le projet Agritech, J'ai opté pour une cross validation groupée par pays, au lieu d'un découpage aléatoire qui aurait gonflé le score en laissant fuiter la signature du pays.
 
 **Je livre du code, pas des notebooks.** `src/`, tests, CI, Docker. Mes premiers projets sont des notebooks et je les laisse en ligne — la progression fait partie du dossier.
 
