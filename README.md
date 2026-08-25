@@ -25,8 +25,6 @@ Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook
 |ML & ML Ops| **HR Attrition model** | Gradient Boosting, FastAPI, PostgreSQL, SHAP — seuil de décision à 0,37, recall priorisé sur l'attrition | [Repo](https://github.com/KL38/OC_P5_ML_MLOPS_HR-attrition-model)<br>[Demo](https://huggingface.co/spaces/KLEB38/OC_P5_Frontend_FUTURISYS) |
 |ML & ML Ops| **Agritech** | Chaîne complète modèle → API → interface, avec un protocole de validation qui refuse le score flatteur | [Repo](https://github.com/KL38/OC_P12_ML_MLOPS_Predict-Crops-rentability) |
 
-
-
 ---
 
 ### Comment je travaille
@@ -75,13 +73,25 @@ Français natif · Anglais courant (4 ans à Hong Kong) · Allemand B1
 
 ![Dashboard de monitoring du Credit Scoring API](assets/monitoring.gif)
 
+<br>
+
+---
+
 **NBA Analyst AI.** Question posée en langage naturel, réponse sourcée sur les commentaires et statistiques NBA.
 
 ![Démo de NBA Analyst AI](assets/demo%20P10.gif)
 
+<br>
+
+---
+
 **Seattle Building Energy & Emissions.** Un bâtiment saisi puis un portefeuille chargé en CSV — estimation, intervalle à 75 % et facteurs SHAP, portefeuille trié par émissions décroissantes.
 
 ![Démo de Seattle Building Energy & Emissions](assets/demo%20P13.gif)
+
+<br>
+
+---
 
 **HR Attrition model.** Recherche d'un employé par ID — verdict, score de probabilité face au seuil 0,37, et les 5 facteurs SHAP.
 
