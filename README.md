@@ -21,7 +21,7 @@ Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook
 |RAG | **NBA Analyst AI** | Évaluation d'un système RAG — fidélité ×2.5, précision du contexte ×4.3, mesurées sur 60 questions métier | [Repo](https://github.com/KL38/OC_P10_RAG_NBA-comments-and-stats) <br>[Rapport Eval](https://kl38.github.io/OC_P10_RAG_NBA-comments-and-stats/) |
 |CV| **Brain Tumor Detection** | Deep Learning semi-supervisé — 1 406 IRM pseudo-labellisées par clustering, un CNN qui bat le supervisé pur avec 100 images annotées | [Repo](https://github.com/KL38/OC_P7_DL_SSL_Brain-Tumor-Detection) |
 |ML & ML Ops| **Credit Scoring API** | Mise en production complète — FastAPI, ONNX Runtime, CI/CD GitHub Actions, espace de monitoring dédié |[Repo](https://github.com/KL38/OC_P8_MLOPS_Credit-scoring-API)<br>[API](https://huggingface.co/spaces/KLEB38/OC_P8)<br>[Monitoring](https://huggingface.co/spaces/KLEB38/OC_P8_monitoring) |
-|ML & ML Ops| **Seattle Building consumption** | Prédiction conforme (MAPIE), CatBoost, SHAP — couverture 81 % pour une cible de 75 % | [Repo](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model)<br>[Demo](https://huggingface.co/spaces/KLEB38/OC_P13_seattle_energy_emission_predictions) |
+|ML & ML Ops| **Seattle Building consumption** | Prédiction conforme (MAPIE), CatBoost, SHAP — couverture 81 % pour une cible de 75 % | [Repo](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model)<br>[Demo](https://huggingface.co/spaces/KLEB38/OC_P13_seattle_energy_emission_predictions) <br>[Rapport](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model/blob/main/rapport/Rapport%20Seattle%20Energy%20Emission%20project.pdf)|
 |ML & ML Ops| **HR Attrition model** | Gradient Boosting, FastAPI, PostgreSQL, SHAP — seuil de décision à 0,37, recall priorisé sur l'attrition | [Repo](https://github.com/KL38/OC_P5_ML_MLOPS_HR-attrition-model)<br>[Demo](https://huggingface.co/spaces/KLEB38/OC_P5_Frontend_FUTURISYS) |
 |ML & ML Ops| **Agritech** | Chaîne complète modèle → API → interface, avec un protocole de validation qui refuse le score flatteur | [Repo](https://github.com/KL38/OC_P12_ML_MLOPS_Predict-Crops-rentability) |
 
@@ -69,11 +69,28 @@ Français natif · Anglais courant (4 ans à Hong Kong) · Allemand B1
 
 ### Aperçus
 
+**Seattle Building Energy & Emissions.** Un bâtiment saisi puis un portefeuille chargé en CSV — estimation, intervalle à 75 % et facteurs SHAP, portefeuille trié par émissions décroissantes.
+
+![Démo de Seattle Building Energy & Emissions](assets/demo%20P13.gif)
+
+<br>
+
+---
+
 **Credit Scoring API — espace de monitoring.** Volumétrie, latence p50/p95 décomposée par étape, dérive des features et suivi des décisions.
 
 ![Dashboard de monitoring du Credit Scoring API](assets/monitoring.gif)
 
 <br>
+
+
+---
+
+
+**HR Attrition model.** Recherche d'un employé par ID — verdict, score de probabilité face au seuil 0,37, et les 5 facteurs SHAP.
+
+![Démo de HR Attrition model](assets/demo%20P5.gif)
+
 
 ---
 
@@ -83,21 +100,3 @@ Français natif · Anglais courant (4 ans à Hong Kong) · Allemand B1
 
 <br>
 
----
-
-**Seattle Building Energy & Emissions.** Un bâtiment saisi puis un portefeuille chargé en CSV — estimation, intervalle à 75 % et facteurs SHAP, portefeuille trié par émissions décroissantes.
-
-![Démo de Seattle Building Energy & Emissions](assets/demo%20P13.gif)
-
-<br>
-
----
-
-**HR Attrition model.** Recherche d'un employé par ID — verdict, score de probabilité face au seuil 0,37, et les 5 facteurs SHAP.
-
-![Démo de HR Attrition model](assets/demo%20P5.gif)
-
-<!-- Liens en attente : le CV et le rapport de conduite de projet n'ont pas encore
-     d'URL publique. Rétablir cette ligne quand ce sera le cas.
-📄 [CV](LIEN_CV) · 📊 [Rapport de conduite de projet data](LIEN_RAPPORT)
--->
