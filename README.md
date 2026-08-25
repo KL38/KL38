@@ -1,25 +1,31 @@
-Hello Friend 👋
+Welcome to my Github profile! 👋
 
-Welcome on my Github profile!
+Je suis Kevin Lebayle, ML/AI Engineer et Data Scientist (diplomé Openclassroom 2026).
 
-J'ai passé 10 ans en Testing, Inspection & Certification — laboratoires de biens industriels et de consommation, normes produit, direction d'équipe. J'y ai été le client de projets data : j'ai spécifié un LIMS, encadré son déploiement, et attendu des résultats de systèmes que d'autres construisaient. Je me suis reconverti pour être celui qui les construit.
+J'ai passé 10 ans en Testing, Inspection & Certification — laboratoires de biens industriels et de consommation, normes produit, direction d'équipe.
+
+J'y ai été le client de projets data : j'ai spécifié un LIMS, encadré son déploiement, et attendu des résultats de systèmes que d'autres construisaient. Je me suis reconverti pour être celui qui les construit.
 
 Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook et devient un service qu'on peut servir, mesurer et corriger. *Un modèle qui répond n'est pas un modèle qui a raison* : c'est la ligne qui sépare mes premiers projets des derniers.
 
 **Ce que je cherche :** un poste de ML/AI Engineer.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kevin-lebayle-87343050)
+
 ---
 
 ### Ce que je sais faire, et où le vérifier
 
-| Projet | Ce qu'il démontre | |
-|---|---|---|
-| **Credit Scoring API** | Mise en production complète — FastAPI, ONNX Runtime, CI/CD GitHub Actions, espace de monitoring dédié | [repo](https://github.com/KL38/OC_P8_MLOPS_Credit-scoring-API) · [démo](https://huggingface.co/spaces/KLEB38/OC_P8) |
-| **NBA Analyst AI** | Évaluation d'un système RAG — fidélité ×2.5, précision du contexte ×4.3, mesurées sur 60 questions métier | [repo](https://github.com/KL38/OC_P10_RAG_NBA-comments-and-stats) |
-| **Agritech** | Chaîne complète modèle → API → interface, avec un protocole de validation qui refuse le score flatteur | [repo](https://github.com/KL38/OC_P12_ML_MLOPS_Predict-Crops-rentability) |
-| **Brain Tumor Detection** | Deep Learning semi-supervisé — 1 406 IRM pseudo-labellisées par clustering, un CNN qui bat le supervisé pur avec 100 images annotées | [repo](https://github.com/KL38/OC_P7_DL_SSL_Brain-Tumor-Detection) |
-| **Credit Scoring** | ML piloté par le coût métier — `10×FN + FP` décide de la métrique et du seuil, pas l'inverse | [repo](https://github.com/KL38/OC_P6_ML_Predict-Credit-Scoring) |
-| **Assistant culturel RAG** | RAG de bout en bout sur corpus réel, évalué avec Ragas | [repo](https://github.com/KL38/OC_P9_RAG_Cultural-event-chatbot) |
+| Theme | Projet | Ce qu'il démontre | |
+|---|---|---|---|
+|ML & ML Ops| **Credit Scoring API** | Mise en production complète — FastAPI, ONNX Runtime, CI/CD GitHub Actions, espace de monitoring dédié | [Repo](https://github.com/KL38/OC_P8_MLOPS_Credit-scoring-API)<br>[API](https://huggingface.co/spaces/KLEB38/OC_P8)<br>[Monitoring](https://huggingface.co/spaces/KLEB38/OC_P8_monitoring) |
+|RAG | **NBA Analyst AI** | Évaluation d'un système RAG — fidélité ×2.5, précision du contexte ×4.3, mesurées sur 60 questions métier | [Repo](https://github.com/KL38/OC_P10_RAG_NBA-comments-and-stats) <br>[Rapport Eval](https://kl38.github.io/OC_P10_RAG_NBA-comments-and-stats/) |
+|ML & ML Ops| **Agritech** | Chaîne complète modèle → API → interface, avec un protocole de validation qui refuse le score flatteur | [repo](https://github.com/KL38/OC_P12_ML_MLOPS_Predict-Crops-rentability) |
+|CV| **Brain Tumor Detection** | Deep Learning semi-supervisé — 1 406 IRM pseudo-labellisées par clustering, un CNN qui bat le supervisé pur avec 100 images annotées | [repo](https://github.com/KL38/OC_P7_DL_SSL_Brain-Tumor-Detection) |
+|ML & ML Ops| **Seattle Building consumption** | Prédiction conforme (MAPIE), CatBoost, SHAP — couverture 81 % pour une cible de 75 % | [repo](https://github.com/KL38/OC_P13_ML_MLOPS_Building_Energy_model)<br>[demo](https://huggingface.co/spaces/KLEB38/OC_P13_seattle_energy_emission_predictions) |
+|ML & ML Ops| **HR Attrition model** | Gradient Boosting, FastAPI, PostgreSQL, SHAP — seuil de décision à 0,37, recall priorisé sur l'attrition | [repo](https://github.com/KL38/OC_P5_ML_MLOPS_HR-attrition-model)<br>[demo](https://huggingface.co/spaces/KLEB38/OC_P5_Frontend_FUTURISYS) |
+
+
 
 ---
 
@@ -37,7 +43,19 @@ Ce qui m'occupe aujourd'hui : le moment où un modèle cesse d'être un notebook
 
 ### Stack
 
-`Python` · `scikit-learn` · `PyTorch` · `FastAPI` · `Docker` · `MLflow` · `GitHub Actions` · `LangChain` / `Pydantic AI` · `FAISS` · `RAGAS` · `Streamlit` · `uv`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Pydantic AI](https://img.shields.io/badge/Pydantic_AI-E92063?style=flat&logo=pydantic&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-4B8BBE?style=flat)
+![RAGAS](https://img.shields.io/badge/RAGAS-4B8BBE?style=flat)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat&logo=uv&logoColor=white)
 
 En cours d'approfondissement : Deep Learning & Computer Vision, orchestration (Airflow, Kubernetes), cloud à l'échelle.
 
@@ -56,6 +74,18 @@ Français natif · Anglais courant (4 ans à Hong Kong) · Allemand B1
 **Credit Scoring API — espace de monitoring.** Volumétrie, latence p50/p95 décomposée par étape, dérive des features et suivi des décisions.
 
 ![Dashboard de monitoring du Credit Scoring API](assets/monitoring.gif)
+
+**NBA Analyst AI.** Question posée en langage naturel, réponse sourcée sur les commentaires et statistiques NBA.
+
+![Démo de NBA Analyst AI](assets/demo%20P10.gif)
+
+**Seattle Building Energy & Emissions.** Un bâtiment saisi puis un portefeuille chargé en CSV — estimation, intervalle à 75 % et facteurs SHAP, portefeuille trié par émissions décroissantes.
+
+![Démo de Seattle Building Energy & Emissions](assets/demo%20P13.gif)
+
+**HR Attrition model.** Recherche d'un employé par ID — verdict, score de probabilité face au seuil 0,37, et les 5 facteurs SHAP.
+
+![Démo de HR Attrition model](assets/demo%20P5.gif)
 
 <!-- Liens en attente : le CV et le rapport de conduite de projet n'ont pas encore
      d'URL publique. Rétablir cette ligne quand ce sera le cas.
