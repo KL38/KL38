@@ -6,9 +6,9 @@ ML/AI Engineer & Data Scientist
 
 ---
 
-I spent **10 years in Testing, Inspection & Certification** : industrial and consumer goods laboratories, product standards, team leadership.
+I spent **10 years in Testing, Inspection & Certification**: industrial and consumer goods laboratories, product standards, team leadership.
 
-There, I was the client on data projects: I specified a LIMS, oversaw its rollout, and waited on results from systems other people were building.  </br>**So I changed careers to build them myself.**
+There, I was the client on data projects: I specified a LIMS, oversaw its rollout, and waited for results from systems other people were building.  <br>**So I changed careers to build them myself.**
 
 What holds my attention now: the moment a model stops being a notebook and becomes a service you can **serve, measure and fix**.
 
@@ -48,7 +48,7 @@ On **Agritech**, I chose cross-validation grouped by country over a random split
 ### I ship code, not notebooks  
 
 `src/` · `tests/` · `CI` · `Docker`
-</br>My earliest projects *are* notebooks and I'm leaving them online — the progression is part of the record.
+<br>My earliest projects *are* notebooks and I'm leaving them online — the progression is part of the record.
 
 ---
 
@@ -87,12 +87,12 @@ Three Master's-level qualifications (**EQF 7**):
 | Degree | School | Year | Details |
 |:-------|:-------|:-----|:--------|
 | **Expert in Data Engineering & Data Science** | OpenClassrooms | 2026 | RNCP Level 7 (EQF 7) — Master's equivalent |
-| **M.Sc. Management & Business Administration (MBA)** | IAE Toulouse | 2016 | French national Master's degree (EQF 7) |
+| **MBA : Management & Business Administration** | IAE Toulouse | 2016 | French national Master's degree (EQF 7) |
 | **M.Eng. Materials Science & Engineering** | Polytech Montpellier | 2014 | CTI-accredited engineering degree, confers the Master's grade (EQF 7) · EUR-ACE labelled |
 
 **Languages**  
 
-Native French</br>Fluent English (4 years in Hong Kong)</br>German B1
+Native French<br>Fluent English (4 years in Hong Kong)<br>German B1
 
 ---
 
